@@ -7,16 +7,17 @@ import PositionReactNative from './pages/Position';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
-  useEffect(() =>{
-    setTimeout(() =>{
-      SetIsShow(false);
-    }, 6000);
-  });
+  // useEffect(() =>{
+  //   setTimeout(() =>{
+  //     SetIsShow(false);
+  //   }, 6000);
+  // });
   return (
     <View>
       <ScrollView>
         {/* <SampleComponent/> */}
-        {isShow && <FlexBox/>}
+        {/* {isShow && <FlexBox/>} */}
+        <FlexBox/>
         {/* <PositionReactNative/> */}
 
       </ScrollView>
