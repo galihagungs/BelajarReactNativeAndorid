@@ -5,6 +5,7 @@ import StylingReactNativeComponent from './StylingReactNativeComponent';
 import ImplementStylingComponent from './ImplementStylingComponent';
 import FlexBox from './FlexBox';
 import FlexBoxImplement from './FlexBoxImplement';
+import PositionReactNative from './PositionReactNative';
 
 const App = () => {
   return (
@@ -12,9 +13,10 @@ const App = () => {
       <ScrollView>
         {/* <SampleComponent />
         <StylingReactNativeComponent />
-        <ImplementStylingComponent /> */}
+        <ImplementStylingComponent />
         <FlexBox/>
-        <FlexBoxImplement/>
+        <FlexBoxImplement/> */}
+        <PositionReactNative/>
       </ScrollView>
       
     </View>
