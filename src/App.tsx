@@ -5,6 +5,7 @@ import FlexBox from './pages/FlexBox';
 import SampleComponent from './pages/SampleComponent';
 import PositionReactNative from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -20,7 +21,8 @@ const App = () => {
         {/* {isShow && <FlexBox/>} */}
         {/* <FlexBox/> */}
         {/* <PositionReactNative/> */}
-        <PropsDinamis/>
+        {/* <PropsDinamis/> */}
+        <StateDinamis />
 
       </ScrollView>
       
