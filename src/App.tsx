@@ -8,6 +8,7 @@ import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
 import StylingComponent from './pages/StylingComponent';
+import BasicJavascript from './pages/BasicJavascript';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -26,7 +27,8 @@ const App = () => {
         {/* <PositionReactNative/> */}
         {/* <PropsDinamis/> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <BasicJavascript/>
 
       </ScrollView>
       
