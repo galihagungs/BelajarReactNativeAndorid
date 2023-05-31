@@ -1,25 +1,22 @@
 import { Image, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import iconcart from '../../assets/icon/cart.png';
+import iconcart from '../../../assets/icon/cart.png';
 
-export default function PositionReactNative() {
+const Cart = (props) => {
   return (
-    <View style={styles.warper}>
-        <Text>Materi Posisiton</Text>
-        <View style={styles.warpbtn}>
+    <View>
+      <View style={styles.warpbtn}>
           <Image source={iconcart} style={styles.iconbtn}/>
-          <Text style={styles.notif}>12</Text>
+          <Text style={styles.notif}>{props.quantity}</Text>
         </View>
       <Text style={styles.textbtn}>Keranjang Belanja Anda</Text>
     </View>
   )
 }
 
+export default Cart
+
 const styles = StyleSheet.create({
-    warper:{
-        padding:20,
-        alignItems:'center'
-    },
     warpbtn:{
         borderWidth:1, 
         borderColor:'#4398D1',
@@ -52,4 +49,4 @@ const styles = StyleSheet.create({
         top:0,
         right:0
     }
-});
+})
