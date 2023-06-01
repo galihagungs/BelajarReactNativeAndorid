@@ -11,6 +11,7 @@ import StylingComponent from './pages/StylingComponent';
 import BasicJavascript from './pages/BasicJavascript';
 import ReactNativeSVG from './pages/ReactNativeSVG';
 import CallApiVanila from './pages/CallApiVanila';
+import CallApiAxios from './pages/CallApiAxios';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -32,7 +33,8 @@ const App = () => {
         {/* <Communication /> */}
         {/* <BasicJavascript/> */}
         {/* <ReactNativeSVG/> */}
-        <CallApiVanila />
+        {/* <CallApiVanila /> */}
+        <CallApiAxios />
 
       </ScrollView>
       
